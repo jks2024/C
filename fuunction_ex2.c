@@ -9,11 +9,7 @@
 // 2. Call by Reference 반식으로 변경하고 이를 매개변수로 전달해 출력 하기
 
 #include <stdio.h>
-void input_score(int *, int *, int *, int *);
-double calc_avg(int, int, int, int);
-int calc_total(int, int, int, int);
-char calc_grade(double);
-void print_score(double, int, char);
+#include "./header/calc.h"
 
 int main() {
   int kor, eng, mat, sci, total;
